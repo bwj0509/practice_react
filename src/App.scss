@@ -11,7 +11,7 @@
   border-radius: 20px;
 }
 
-.container {
+.container1 {
   background-color: rgb(141, 245, 131);
   text-align: center;
   width: 80%;
@@ -22,11 +22,11 @@
 }
 
 .container2 {
-  @extend .container;
+  @extend .container1;
   background-color: rgb(76, 218, 218);
 }
 .container3 {
-  @extend .container;
+  @extend .container1;
   background-color: rgb(245, 245, 129);
 }
 
