@@ -1,0 +1,36 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+.title {
+  background-color: antiquewhite;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  font-size: 2vw;
+  border: 3px solid gold;
+  border-radius: 20px;
+}
+
+.container {
+  background-color: rgb(141, 245, 131);
+  text-align: center;
+  width: 80%;
+  height: 50vh;
+  margin: auto;
+  font-size: 2vw;
+  border-radius: 5px 20px 5px 20px;
+}
+
+.container2 {
+  @extend .container;
+  background-color: rgb(76, 218, 218);
+}
+.container3 {
+  @extend .container;
+  background-color: rgb(245, 245, 129);
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}

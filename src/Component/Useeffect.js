@@ -1,10 +1,9 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 
-function UsingState(){
+function Useeffect(){
     
     const [count1, setCount1] = useState(0);
     const [count2, setCount2] = useState(0);
-    const count3 = useRef(0);
 
     useEffect(()=>{
         console.log('조건없이 동작하는 useEffect')
@@ -21,19 +20,17 @@ function UsingState(){
 
 
     return(
-        <div className='container mt-5 pt-3'>
-            <h1>리액트 훅 연습공간</h1>
-            <p>count1의 값 : {count1}</p>
-            <p>count2의 값 : {count2}</p>
-            <p>count3의 값 : {count3.current}</p>
+        <div className='container2 mt-5 pt-3'>
+            <h1>리액트 훅 : useEffect</h1>
+            <p>count1의 값 : <span className="red">{count1}</span></p>
+            <p>count2의 값 : <span className="red">{count2}</span></p>
 
             <button onClick={()=>{setCount1(count1+1)}}>count1 증가! (useState)</button> 
             <button onClick={()=>{setCount2(count2+1)}}>count2 증가! (useState)</button>
-            <button onClick={()=>{count3.current += 1}}>count3 증가! (useRef)</button>
-            
+            <br/><span>console.log를 확인하세요</span>
             
         </div>
         
     )
 }
-export default UsingState;
+export default Useeffect;
