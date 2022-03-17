@@ -41,6 +41,14 @@
   @extend .container1;
   background-color: rgb(184, 241, 206);
 }
+.container7 {
+  @extend .container1;
+  background-color: rgb(246, 180, 252);
+}
+.container8 {
+  @extend .container1;
+  background-color: rgb(161, 224, 221);
+}
 
 .red {
   color: red;

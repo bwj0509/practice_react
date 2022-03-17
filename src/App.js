@@ -9,7 +9,9 @@ import Useref from './Component/Useref';
 import Props from './Component/Props';
 import Showui from './Component/Showui';
 import Input from './Component/Input';
+import Refselect_dom from './Component/Refselect_dom'
 import { Link, Route, Routes } from 'react-router-dom';
+import Arrayrendering from './Component/Arrayrendering';
 
 
 
@@ -30,6 +32,8 @@ function App() {
           <Props myName={myName}/>
           <Showui/>
           <Input/>
+          <Refselect_dom/>
+          <Arrayrendering/>
 
         </>}/>
       </Routes>
