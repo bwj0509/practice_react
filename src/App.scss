@@ -29,8 +29,24 @@
   @extend .container1;
   background-color: rgb(245, 245, 129);
 }
+.container4 {
+  @extend .container1;
+  background-color: rgb(223, 156, 156);
+}
+.container5 {
+  @extend .container1;
+  background-color: rgb(185, 184, 226);
+}
+.container6 {
+  @extend .container1;
+  background-color: rgb(184, 241, 206);
+}
 
 .red {
   color: red;
   font-weight: bold;
+}
+
+.center {
+  text-align: center;
 }
